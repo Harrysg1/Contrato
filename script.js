@@ -1,3 +1,3 @@
 function verMas() {
-    window.location.href = "no.html";
+    window.location.href = "body.html";
 }
