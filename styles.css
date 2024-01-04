@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 20px; /* Agrega un margen alrededor del cuerpo de la página */
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #fff;
@@ -12,10 +12,17 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    max-width: 800px; /* Establece un ancho máximo para el contenedor principal */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 h1 {
     font-size: 2em;
+    text-align: center; /* Centra el título */
+}
+
+.tratado-container {
+    margin-bottom: 20px; /* Agrega espacio en la parte inferior del contenedor del tratado */
 }
 
 button {
@@ -26,10 +33,10 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    display: block; /* Hace que el botón sea un bloque para centrarlo */
+    margin: 20px auto; /* Centra el botón horizontalmente y agrega espacio en la parte superior e inferior */
 }
 
 button:hover {
-    background-color: #333;
-}
     background-color: #333;
 }
