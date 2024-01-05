@@ -1,30 +1,27 @@
+
 body {
-    margin: 0;
+    margin: 20px; /* Agrega un margen alrededor del cuerpo de la página */
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; /* Asegura que el contenedor ocupa al menos el 100% de la altura de la pantalla */
 }
 
 .container {
-    max-width: 800px;
-    text-align: center;
+    max-width: 800px; /* Establece un ancho máximo para el contenedor principal */
+    margin: 20px auto; /* Centra el contenedor horizontalmente y agrega espacio en la parte superior e inferior */
 }
 
 h1, button {
-    text-align: center;
+    text-align: center; /* Centra el título y el botón */
 }
 
 p, ul, ol {
-    text-align: left;
+    text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .tratado-container {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Agrega espacio en la parte inferior del contenedor del tratado */
 }
 
 button {
@@ -35,11 +32,10 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
-    display: block;
-    margin: 20px auto;
+    display: block; /* Hace que el botón sea un bloque para centrarlo */
+    margin: 20px auto; /* Centra el botón horizontalmente y agrega espacio en la parte superior e inferior */
 }
 
 button:hover {
     background-color: #333;
 }
-
