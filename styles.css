@@ -7,18 +7,16 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     max-width: 800px; /* Establece un ancho máximo para el contenedor principal */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin: 20px auto; /* Centra el contenedor horizontalmente y agrega espacio en la parte superior e inferior */
 }
 
-h1 {
-    font-size: 2em;
-    text-align: center; /* Centra el título */
+h1, button {
+    text-align: center; /* Centra el título y el botón */
+}
+
+p, ul, ol {
+    text-align: left; /* Alinea el texto a la izquierda */
 }
 
 .tratado-container {
