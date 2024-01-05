@@ -1,5 +1,3 @@
-
-hola 
 body {
     margin: 0;
     padding: 0;
@@ -15,8 +13,7 @@ body {
 .container {
     max-width: 800px;
     text-align: center;
-    margin-left: 20px; /* Margen izquierdo */
-    margin-right: 20px; /* Margen derecho */
+    margin: 20px; /* Margen izquierdo y derecho iguales */
 }
 
 h1, button {
