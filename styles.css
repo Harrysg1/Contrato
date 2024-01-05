@@ -13,7 +13,8 @@ body {
 .container {
     max-width: 800px;
     text-align: center;
-    margin-left: 20px; /* Añade un margen a la izquierda del contenedor */
+    margin-left: 20px; /* Margen izquierdo */
+    margin-right: 10px; /* Margen derecho */
 }
 
 h1, button {
@@ -22,7 +23,8 @@ h1, button {
 
 p, ul, ol {
     text-align: left;
-    margin-left: 10px; /* Añade un margen a la izquierda de los elementos de texto */
+    margin-left: 10px; /* Margen izquierdo de los elementos de texto */
+    margin-right: 5px; /* Margen derecho de los elementos de texto */
 }
 
 .tratado-container {
