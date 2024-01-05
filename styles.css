@@ -1,26 +1,30 @@
 body {
-    margin: 20px; /* Agrega un margen alrededor del cuerpo de la página */
+    margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Asegura que el contenedor ocupa al menos el 100% de la altura de la pantalla */
 }
 
 .container {
-    max-width: 800px; /* Establece un ancho máximo para el contenedor principal */
-    margin: 20px auto; /* Centra el contenedor horizontalmente y agrega espacio en la parte superior e inferior */
+    max-width: 800px;
+    text-align: center;
 }
 
 h1, button {
-    text-align: center; /* Centra el título y el botón */
+    text-align: center;
 }
 
 p, ul, ol {
-    text-align: left; /* Alinea el texto a la izquierda */
+    text-align: left;
 }
 
 .tratado-container {
-    margin-bottom: 20px; /* Agrega espacio en la parte inferior del contenedor del tratado */
+    margin-bottom: 20px;
 }
 
 button {
@@ -31,10 +35,11 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
-    display: block; /* Hace que el botón sea un bloque para centrarlo */
-    margin: 20px auto; /* Centra el botón horizontalmente y agrega espacio en la parte superior e inferior */
+    display: block;
+    margin: 20px auto;
 }
 
 button:hover {
     background-color: #333;
 }
+
