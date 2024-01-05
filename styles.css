@@ -1,3 +1,5 @@
+
+hola 
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +16,7 @@ body {
     max-width: 800px;
     text-align: center;
     margin-left: 20px; /* Margen izquierdo */
-    margin-right: 10px; /* Margen derecho */
+    margin-right: 20px; /* Margen derecho */
 }
 
 h1, button {
@@ -40,9 +42,10 @@ button {
     border: none;
     cursor: pointer;
     display: block;
-    margin: 20px auto;
+    margin: 20px auto; /* Centro el botón horizontalmente y agrego espacio en la parte superior e inferior */
 }
 
 button:hover {
     background-color: #333;
 }
+
